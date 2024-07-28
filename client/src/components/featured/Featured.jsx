@@ -3,7 +3,7 @@ import "./featured.css";
 
 const Featured = () => {
   const { data, loading, error } = useFetch(
-    "/hotels/countByCity?cities=Mumbai,Bangalore,Coorg"
+    "https://trip-server-902u.onrender.com/api/hotels/countByCity?cities=Mumbai,Bangalore,Coorg"
   );
 
   return (
